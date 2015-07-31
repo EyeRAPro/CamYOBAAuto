@@ -5,6 +5,8 @@ My first attempt to make VNC scanner gui with some things like parser and semi-a
 
 Current version only have scanner and preview of semi-automatic filter (click small button at the right bottom of scanner.
 
+vnc.exe ain't mine, it's RealVNC Bypass Authentication Scanner, all right come to its creator.
+
 **Please help me with some things. I ain't mainly C programmer, so I need some help. If you want to help - There is task list down there.**
 
 |  Scanner:
