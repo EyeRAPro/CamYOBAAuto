@@ -37,13 +37,15 @@ namespace CamYOBAAuto
                     label5.Text = ips[i];
                     label6.Text = i+1 + "/" + maxIndex;
                     vnc.WaitForExit();
+                    progressBar1.Maximum = maxIndex;
+                    progressBar1.Value = i + 1;
                 }
-                //if(i>=maxIndex)
-                //{
-
+                if(i>=maxIndex)
+                {
+                
                 //    yobaout yo = new yobaout();
                 //    yo.ShowDialog();
-                //}
+                }
             }
         }
 

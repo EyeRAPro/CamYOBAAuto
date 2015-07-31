@@ -166,7 +166,6 @@
             this.progressBar1.Size = new System.Drawing.Size(65, 13);
             this.progressBar1.Style = System.Windows.Forms.ProgressBarStyle.Continuous;
             this.progressBar1.TabIndex = 12;
-            this.progressBar1.Value = 60;
             // 
             // toolStrip1
             // 
