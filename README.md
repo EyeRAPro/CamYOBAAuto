@@ -3,9 +3,28 @@ YOBA Scanner
 
 My first attempt to make VNC scanner gui with some things like parser and semi-automatic filter.
 
-Current version only have scanner.
+Current version only have scanner and preview of semi-automatic filter (click small button at the right bottom of scanner.
 
 **Please help me with some things. I ain't mainly C programmer, so I need some help. If you want to help - I'll soon add task list down here**
+
+|  Scanner:
+---
+| ![Functionality](http://progressed.io/bar/90?title=Functionality) Need to include byte array of vnc.exe inside code, so program could run with only 1 exe.
+|  ![Visual](http://progressed.io/bar/80?title=Visual) Include Copyright, add Menu for 'Addons'.
+
+|  Parser:
+---
+| ![Functionality](http://progressed.io/bar/0?title=Functionality) Nothing is made currently.
+|  ![Visual](http://progressed.io/bar/100?title=Visual) There is none visuals here as it's only code that will make ip list pretty and easy to use by filter
+
+|  Filter:
+---
+| ![Functionality](http://progressed.io/bar/0?title=Functionality) Nothing is made currently.
+|  ![Visual](http://progressed.io/bar/90?title=Visual) I'll need to translate it to eng, cuz preview is in russian. Probably will change something else =)
+
+#####Addons:
+
+Currently NONE. Send me PR if you wanna se your addon right hia.
 
 License:
 =====
