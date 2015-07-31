@@ -57,4 +57,4 @@ See LICENSE-CODE.txt and LICENSE-ART.txt for license information.
 
 ©2014-2015 SirAzazel / Fell / Vitaly Mayhvat
 
-License are made by Team CoFH, you are great guys =) ©2012-2015 Cult of the Full Hub / Team CoFH / CoFH
+License are made by Team CoFH, you are great guys =) ©2012-2015 Cult of the Full Hub / Team CoFH / CoFH [TeamCoFH Home Page](http://teamcofh.com/)
