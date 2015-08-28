@@ -22,7 +22,7 @@ vnc.exe ain't mine, it's RealVNC Bypass Authentication Scanner, all right come t
 |  Filter:
 ---
 | ![Functionality](http://progressed.io/bar/0?title=Functionality) Nothing is made currently.
-|  ![Visual](http://progressed.io/bar/100?title=Visual) Possibly - final look of filter, but may change later ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ
+|  ![Visual](http://progressed.io/bar/100?title=Visual) Possibly - final look of filter, but may change later ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ ᅚ 
 
 #####Addons:
 
