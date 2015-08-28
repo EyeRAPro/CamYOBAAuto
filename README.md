@@ -48,7 +48,7 @@ Art and sound assets are released under the Creative Commons Attribution-ShareAl
 
 Contribution to this repository means that you are granting me rights over the code that you choose to contribute. If you do not agree with that, do not contribute.
 
-So, why is this here? Well, the rights are reserved, but what that really means is that we choose what to do with the rights. So here you go.
+So, why is this here? Well, the rights are reserved, but what that really means is that I choose what to do with the rights. So here you go.
 
 #### You CAN
 - Fork and modify the code.
