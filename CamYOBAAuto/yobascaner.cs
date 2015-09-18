@@ -42,19 +42,11 @@ namespace CamYOBAAuto
                 }
                 if(i>=maxIndex)
                 {
-                
-                //    yobaout yo = new yobaout();
-                //    yo.ShowDialog();
+                    yobaparser yp = new yobaparser();
+                    yp.ShowDialog();
                 }
             }
         }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            yobaout yo = new yobaout();
-            yo.ShowDialog();
-        }
-
 
     }
 }

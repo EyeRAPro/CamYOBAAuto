@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="yobaparser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yobaparser.Designer.cs">
+      <DependentUpon>yobaparser.cs</DependentUpon>
+    </Compile>
     <Compile Include="yobaout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -61,6 +67,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="yobaparser.resx">
+      <DependentUpon>yobaparser.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="yobaout.resx">
       <DependentUpon>yobaout.cs</DependentUpon>
     </EmbeddedResource>
