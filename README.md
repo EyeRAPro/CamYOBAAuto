@@ -16,7 +16,7 @@ vnc.exe ain't mine, it's RealVNC Bypass Authentication Scanner, all right come t
 
 |  Parser:
 ---
-| ![Functionality](http://progressed.io/bar/0?title=Functionality) Nothing is made currently.
+| ![Functionality](http://progressed.io/bar/100?title=Functionality) Possibly final look of code, looks fine for me.
 |  ![Visual](http://progressed.io/bar/100?title=Visual) There is none visuals here as it's only code that will make ip list pretty and easy to use by filter
 
 |  Filter:
