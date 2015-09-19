@@ -12,15 +12,22 @@ using System.IO;
 
 namespace CamYOBAAuto
 {
+
     public partial class yobascaner : Form
     {
-        public yobascaner()
+        public void throwException(string errorLevel, string errorText)
+        {
+            //Custom Error Placeholder. Soon(TM).
+        }
+
+    public yobascaner()
         {
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            label7.Text = "Now Scanning";
             File.Delete("VNC_bypauth.txt");
             var ips = new List<String>();
             ips.AddRange(richTextBox1.Lines);
@@ -40,13 +47,51 @@ namespace CamYOBAAuto
                     progressBar1.Maximum = maxIndex;
                     progressBar1.Value = i + 1;
                 }
-                if(i>=maxIndex)
+                if(i==maxIndex)
                 {
-                    yobaparser yp = new yobaparser();
-                    yp.ShowDialog();
+                    i++;
                 }
             }
-        }
 
+            if (richTextBox1.Text.Any()) {
+                label7.Text = "Now Parsing";
+                string l;
+                System.IO.StreamReader VNC_output = new System.IO.StreamReader("VNC_bypauth.txt");
+                if (File.Exists("ips.txt")) { File.Delete("ips.txt"); File.Create("ips.txt").Close(); }
+                else { File.Create("ips.txt").Close(); }
+
+                while ((l = VNC_output.ReadLine()) != null)
+                {
+                    if (l.Contains(":8000   "))
+                    {
+
+                        System.IO.StreamReader ip = new System.IO.StreamReader("ips.txt");
+                        if (ip.ReadLine() != null)
+                        {
+                            ip.Close();
+                            File.AppendAllText("ips.txt", Environment.NewLine);
+                        }
+                        else
+                        {
+                            ip.Close();
+                        }
+
+                        l = l.Remove(15);
+                        l = l.Trim();
+                        File.AppendAllText("ips.txt", l);
+                    }
+                }
+
+                VNC_output.Close();
+
+                label7.Text = "Scan/Parse done.";
+                //yobaout yo = new yobaout();
+                //yo.ShowDialog();
+            }
+            else
+            {
+                throwException("Info", "You should add at least 1 IP Range.");
+            }
+        }
     }
 }

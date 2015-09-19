@@ -44,6 +44,7 @@
             this.toolStripSplitButton1 = new System.Windows.Forms.ToolStripSplitButton();
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.toolStrip1 = new System.Windows.Forms.ToolStrip();
+            this.label7 = new System.Windows.Forms.Label();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -84,9 +85,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(103, 356);
+            this.button1.Location = new System.Drawing.Point(103, 368);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(108, 42);
+            this.button1.Size = new System.Drawing.Size(108, 30);
             this.button1.TabIndex = 4;
             this.button1.Text = "Scan and Parse";
             this.button1.UseVisualStyleBackColor = true;
@@ -190,12 +191,22 @@
             this.toolStrip1.TabIndex = 13;
             this.toolStrip1.Text = "toolStrip1";
             // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(103, 352);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(84, 13);
+            this.label7.TabIndex = 15;
+            this.label7.Text = "Waiting for input";
+            // 
             // yobascaner
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.ClientSize = new System.Drawing.Size(223, 407);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.toolStrip1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -238,6 +249,7 @@
         private System.Windows.Forms.ToolStripSplitButton toolStripSplitButton1;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;
         private System.Windows.Forms.ToolStrip toolStrip1;
+        private System.Windows.Forms.Label label7;
     }
 }
 
