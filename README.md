@@ -7,7 +7,7 @@ Current version only have scanner and preview of semi-automatic filter (click sm
 
 vnc.exe ain't mine, it's RealVNC Bypass Authentication Scanner, all right come to its creator.
 
-**Please help me with some things. I ain't mainly C programmer, so I need some help. If you want to help - There is task list down there.**
+**Please help me with some things - There is task list down there.**
 
 |  Scanner:
 ---
